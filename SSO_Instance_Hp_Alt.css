@@ -1,0 +1,75 @@
+/* ---------------- IPR:798  Added belwo code as part of Company SSO Login page change by Ramesh on 9-Sep-2024  IST*/
+.sso-container {
+    text-align: center;
+    margin-top: -70px; 
+	left: 41.5%;
+	position: absolute;
+    height: 48px !important;
+}
+.ssoBtn {
+    text-align: center;
+    height: 48px;
+    width: 325px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+#CompanySSO a, button {
+    padding-top: 15px !important;
+    padding-bottom:  15px !important;
+    background: black;
+    border: 1px solid #312D2A;
+    border-radius: 2px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    /*! height: 48px; */
+    padding-right: 50px; 
+    padding-left: 50px;
+	}
+a:link {
+  color: white;
+  
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: none !important;;
+}
+#CompanySSO a{
+    color: white !important;
+}
+
+.horizontal-divider {
+    width: 325px;
+    text-align: center;
+    border-bottom: 1px solid #4C825C;
+    line-height: 0.1em;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.horizontal-divider span {
+    background: #ffffff;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+div.login-fields {
+	top: 420px !important; 
+}	
+#login-form .login-links {
+    margin-top: 70px !important;
+}
+div.login-button {
+top: 610px !important;
+}
+#login-form-head img {
+    margin-top: 625px !important;
+}
+.login-fields > b { /* Login Failure text */
+    
+    top: -10px !important;
+}
+/* -------------------------------- END of SSO Login Page -----------------------------------------------------*/
